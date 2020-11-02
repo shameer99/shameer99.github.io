@@ -1,0 +1,23 @@
+body {
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+p {
+  font-size: 4vw;
+}
+
+.highlight {
+  color: grey;
+  font-weight: bolder;
+}
+
+.imgbox {
+  display: grid;
+  height: 100%;
+}
+.center-fit {
+  max-width: 65%;
+  max-height: 100vh;
+  /* margin: left-align; */
+}
