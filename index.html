@@ -1,29 +1,47 @@
 <!DOCTYPE html>
-
 <head>
   <title>Shameer Shahab</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <script src="./js/update_age.js"></script>
 </head>
 
-<body onload="edit_text()">
-  <div id="first-name" class="name">
-    Shameer
-  </div>
-  <div id="last-name" class="name">
-    Shahab
+<body>
+  <h1>Hi! My name is <span class="highlight">Shameer Shahab</span></h1>
+  <br>
+  <p>
+    I am exactly
+    <span onload="update_age()" class="highlight" id="age">21</span>
+    years old.
+  </p>
+  <br>
+  <p>
+  I am currently seeking a 
+  <span class="highlight">Software Engineering</span>
+  position.
+  <br>
+  You can download
+  <a download href="./resume/shameer-shahab-resume.pdf">a PDF of resume here</a>. 
+  Please send me an
+  <a href="mailto:hire@sshahab.me">email</a>
+  if you have an opening!
+  </p>
+ <br>
+  <p>
+  I attend the 
+  <span class="highlight">University of Maryland.</span>
+  I will obtain my Bachelor's in 
+  <span class="highlight">Computer Science</span>
+  in 
+  <span class="highlight">December 2020</span>. 
+  </p>
+  <div class="imgbox">
+    <img class ="center-fit" src="images/umd_top_10.png">
   </div>
 
-  <div class="resume" id="resume-pdf">
-    <a download href="resume.pdf">resume.pdf</a> 
-  </div>
-  <div class="resume" id="resume-web">
-    <a href="resume.html">web resume</a> 
-  </div>
+  <br>
+  <p>
+  </p>
+
+
 </body>
-
-<footer>
-  <div id="wip">
-    website is a work in progress like myself ;)
-  </div>
-</footer>
