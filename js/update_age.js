@@ -8,7 +8,7 @@ function update_age() {
 
   //miliseconds to years
   var age = (now-birth) / 31556952000;
-  age = age.toFixed(8); //8 decimal places
+  age = age.toFixed(8);
 
   //set age on page
   var age_element = document.getElementById("age");
